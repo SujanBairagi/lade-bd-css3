@@ -1,0 +1,149 @@
+/* fonts poppins700 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Poppins:wght@700&display=swap');
+
+/* common style  */
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+
+.section-title{
+    position: absolute;
+    left: 5.8%;
+    right: 74.93%;
+    top: 2.63%;
+    bottom: 95.79%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    
+}
+.products-sell{
+    margin: 0 auto;
+
+}
+.container{
+    display: flex;
+}
+
+.half-width {
+
+    width: 50%;
+    padding: 5%;
+
+}
+
+
+.half-width img {
+    width: 60%;
+}
+
+.link-btn {
+    color: rgb(138, 19, 19);
+    text-decoration: none;
+    float: right;
+    
+    
+    
+    
+}
+
+.icon-a {
+    margin: 50px;
+
+}
+
+.icon-am {
+    margin: 50px;
+
+}
+
+.icon-d {
+    margin: 50px;
+
+}
+
+.icon-e {
+    margin: 50px;
+
+}
+
+.icon-r {
+    margin: 50px;
+
+}
+
+.icon-t {
+    margin: 50px;
+
+}
+
+.icon-w {
+    margin: 50px;
+
+}
+.menu-container {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+.products{
+    position: absolute;
+    
+}
+
+.electronics {
+    
+    
+     background-color: whitesmoke;
+    border: 2px solid rgb(238, 237, 237);
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden; 
+
+}
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.popular-col {
+    text-align: center;
+}
+
+.electronics img:hover {
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+footer {
+    background-color: #223a69;
+    color: white;
+
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+.fabo-ft {
+    text-align: center;
+    margin: 20px;
+}
+
+i {
+    color: rgb(255, 99, 71);
+}
