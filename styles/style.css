@@ -144,9 +144,8 @@ i {
 .lnk-btn {
     color: rgb(138, 19, 19);
     text-decoration: none;
-    margin-bottom: 0px;
-    margin-right: 60px;
-    
+
+    float: right;
     
     
 }
